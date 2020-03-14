@@ -63,7 +63,7 @@ There are some basic tests run when the demo app launches. It all seems to work.
 
 A very basic level of optimisation has been done, I think the thing is good enough for a user interactive desktop app. On the other hand, if you want to clean up millions of strings in one go, I suspect there would be a need for quite a bit more work to get more speed out of the thing.
 
-The module uses the latest data file from the [Unicode Consortium](https://home.unicode.org), which has some new emojis which have not yet been implmented into macOS. ( Like the pinched fingers one in the JSON example above; as of the date of writing, March 2020. ) I don’t think this is a huge issue. But if it was, you would either filter by version, or just get the previous version of the data from the [Unicode Consortium](https://home.unicode.org) and use that instead.
+The module uses the latest data file from the [Unicode Consortium](https://home.unicode.org), which has some new emojis which have not yet been implemented into macOS. ( Like the pinched fingers one in the JSON example above; as of the date of writing, March 2020. ) I don’t think this is a huge issue. But if it was, you would either filter by version, or just get the previous version of the data from the [Unicode Consortium](https://home.unicode.org) and use that instead.
 
 For instance:
 
